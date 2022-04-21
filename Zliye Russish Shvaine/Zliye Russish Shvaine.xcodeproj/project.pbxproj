@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC33C2082810DBB700526F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C2072810DBB700526F30 /* AppDelegate.swift */; };
+		AC33C20A2810DBB700526F30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C2092810DBB700526F30 /* SceneDelegate.swift */; };
+		AC33C20C2810DBB700526F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C20B2810DBB700526F30 /* ViewController.swift */; };
+		AC33C20F2810DBB700526F30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC33C20D2810DBB700526F30 /* Main.storyboard */; };
+		AC33C2112810DBB900526F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC33C2102810DBB900526F30 /* Assets.xcassets */; };
+		AC33C2142810DBB900526F30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC33C2122810DBB900526F30 /* LaunchScreen.storyboard */; };
+		AC33C21F2810DBB900526F30 /* Zliye_Russish_ShvaineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C21E2810DBB900526F30 /* Zliye_Russish_ShvaineTests.swift */; };
+		AC33C2292810DBB900526F30 /* Zliye_Russish_ShvaineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C2282810DBB900526F30 /* Zliye_Russish_ShvaineUITests.swift */; };
+		AC33C22B2810DBB900526F30 /* Zliye_Russish_ShvaineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C22A2810DBB900526F30 /* Zliye_Russish_ShvaineUITestsLaunchTests.swift */; };
+		AC33C2392810FB2700526F30 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC33C2372810FB2700526F30 /* Model.xcdatamodeld */; };
+		AC33C23B2810FB7200526F30 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC33C23A2810FB7200526F30 /* DataModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC33C21B2810DBB900526F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC33C1FC2810DBB700526F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC33C2032810DBB700526F30;
+			remoteInfo = "Zliye Russish Shvaine";
+		};
+		AC33C2252810DBB900526F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC33C1FC2810DBB700526F30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC33C2032810DBB700526F30;
+			remoteInfo = "Zliye Russish Shvaine";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC33C2042810DBB700526F30 /* Zliye Russish Shvaine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zliye Russish Shvaine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC33C2072810DBB700526F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC33C2092810DBB700526F30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AC33C20B2810DBB700526F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC33C20E2810DBB700526F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC33C2102810DBB900526F30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC33C2132810DBB900526F30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC33C2152810DBB900526F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC33C21A2810DBB900526F30 /* Zliye Russish ShvaineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zliye Russish ShvaineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC33C21E2810DBB900526F30 /* Zliye_Russish_ShvaineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zliye_Russish_ShvaineTests.swift; sourceTree = "<group>"; };
+		AC33C2242810DBB900526F30 /* Zliye Russish ShvaineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zliye Russish ShvaineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC33C2282810DBB900526F30 /* Zliye_Russish_ShvaineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zliye_Russish_ShvaineUITests.swift; sourceTree = "<group>"; };
+		AC33C22A2810DBB900526F30 /* Zliye_Russish_ShvaineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zliye_Russish_ShvaineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC33C2382810FB2700526F30 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		AC33C23A2810FB7200526F30 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC33C2012810DBB700526F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2172810DBB900526F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2212810DBB900526F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC33C1FB2810DBB700526F30 = {
+			isa = PBXGroup;
+			children = (
+				AC33C23A2810FB7200526F30 /* DataModels.swift */,
+				AC33C2372810FB2700526F30 /* Model.xcdatamodeld */,
+				AC33C2062810DBB700526F30 /* Zliye Russish Shvaine */,
+				AC33C21D2810DBB900526F30 /* Zliye Russish ShvaineTests */,
+				AC33C2272810DBB900526F30 /* Zliye Russish ShvaineUITests */,
+				AC33C2052810DBB700526F30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC33C2052810DBB700526F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC33C2042810DBB700526F30 /* Zliye Russish Shvaine.app */,
+				AC33C21A2810DBB900526F30 /* Zliye Russish ShvaineTests.xctest */,
+				AC33C2242810DBB900526F30 /* Zliye Russish ShvaineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC33C2062810DBB700526F30 /* Zliye Russish Shvaine */ = {
+			isa = PBXGroup;
+			children = (
+				AC33C2092810DBB700526F30 /* SceneDelegate.swift */,
+				AC33C20B2810DBB700526F30 /* ViewController.swift */,
+				AC33C2072810DBB700526F30 /* AppDelegate.swift */,
+				AC33C20D2810DBB700526F30 /* Main.storyboard */,
+				AC33C2102810DBB900526F30 /* Assets.xcassets */,
+				AC33C2122810DBB900526F30 /* LaunchScreen.storyboard */,
+				AC33C2152810DBB900526F30 /* Info.plist */,
+			);
+			path = "Zliye Russish Shvaine";
+			sourceTree = "<group>";
+		};
+		AC33C21D2810DBB900526F30 /* Zliye Russish ShvaineTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC33C21E2810DBB900526F30 /* Zliye_Russish_ShvaineTests.swift */,
+			);
+			path = "Zliye Russish ShvaineTests";
+			sourceTree = "<group>";
+		};
+		AC33C2272810DBB900526F30 /* Zliye Russish ShvaineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC33C2282810DBB900526F30 /* Zliye_Russish_ShvaineUITests.swift */,
+				AC33C22A2810DBB900526F30 /* Zliye_Russish_ShvaineUITestsLaunchTests.swift */,
+			);
+			path = "Zliye Russish ShvaineUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC33C2032810DBB700526F30 /* Zliye Russish Shvaine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC33C22E2810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish Shvaine" */;
+			buildPhases = (
+				AC33C2002810DBB700526F30 /* Sources */,
+				AC33C2012810DBB700526F30 /* Frameworks */,
+				AC33C2022810DBB700526F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zliye Russish Shvaine";
+			productName = "Zliye Russish Shvaine";
+			productReference = AC33C2042810DBB700526F30 /* Zliye Russish Shvaine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC33C2192810DBB900526F30 /* Zliye Russish ShvaineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC33C2312810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish ShvaineTests" */;
+			buildPhases = (
+				AC33C2162810DBB900526F30 /* Sources */,
+				AC33C2172810DBB900526F30 /* Frameworks */,
+				AC33C2182810DBB900526F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC33C21C2810DBB900526F30 /* PBXTargetDependency */,
+			);
+			name = "Zliye Russish ShvaineTests";
+			productName = "Zliye Russish ShvaineTests";
+			productReference = AC33C21A2810DBB900526F30 /* Zliye Russish ShvaineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC33C2232810DBB900526F30 /* Zliye Russish ShvaineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC33C2342810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish ShvaineUITests" */;
+			buildPhases = (
+				AC33C2202810DBB900526F30 /* Sources */,
+				AC33C2212810DBB900526F30 /* Frameworks */,
+				AC33C2222810DBB900526F30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC33C2262810DBB900526F30 /* PBXTargetDependency */,
+			);
+			name = "Zliye Russish ShvaineUITests";
+			productName = "Zliye Russish ShvaineUITests";
+			productReference = AC33C2242810DBB900526F30 /* Zliye Russish ShvaineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC33C1FC2810DBB700526F30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					AC33C2032810DBB700526F30 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					AC33C2192810DBB900526F30 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AC33C2032810DBB700526F30;
+					};
+					AC33C2232810DBB900526F30 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = AC33C2032810DBB700526F30;
+					};
+				};
+			};
+			buildConfigurationList = AC33C1FF2810DBB700526F30 /* Build configuration list for PBXProject "Zliye Russish Shvaine" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC33C1FB2810DBB700526F30;
+			productRefGroup = AC33C2052810DBB700526F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC33C2032810DBB700526F30 /* Zliye Russish Shvaine */,
+				AC33C2192810DBB900526F30 /* Zliye Russish ShvaineTests */,
+				AC33C2232810DBB900526F30 /* Zliye Russish ShvaineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC33C2022810DBB700526F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC33C2142810DBB900526F30 /* LaunchScreen.storyboard in Resources */,
+				AC33C2112810DBB900526F30 /* Assets.xcassets in Resources */,
+				AC33C20F2810DBB700526F30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2182810DBB900526F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2222810DBB900526F30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC33C2002810DBB700526F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC33C20C2810DBB700526F30 /* ViewController.swift in Sources */,
+				AC33C2082810DBB700526F30 /* AppDelegate.swift in Sources */,
+				AC33C23B2810FB7200526F30 /* DataModels.swift in Sources */,
+				AC33C20A2810DBB700526F30 /* SceneDelegate.swift in Sources */,
+				AC33C2392810FB2700526F30 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2162810DBB900526F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC33C21F2810DBB900526F30 /* Zliye_Russish_ShvaineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC33C2202810DBB900526F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC33C2292810DBB900526F30 /* Zliye_Russish_ShvaineUITests.swift in Sources */,
+				AC33C22B2810DBB900526F30 /* Zliye_Russish_ShvaineUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC33C21C2810DBB900526F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC33C2032810DBB700526F30 /* Zliye Russish Shvaine */;
+			targetProxy = AC33C21B2810DBB900526F30 /* PBXContainerItemProxy */;
+		};
+		AC33C2262810DBB900526F30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC33C2032810DBB700526F30 /* Zliye Russish Shvaine */;
+			targetProxy = AC33C2252810DBB900526F30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC33C20D2810DBB700526F30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC33C20E2810DBB700526F30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC33C2122810DBB900526F30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC33C2132810DBB900526F30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC33C22C2810DBB900526F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC33C22D2810DBB900526F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC33C22F2810DBB900526F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zliye Russish Shvaine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-Shvaine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC33C2302810DBB900526F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zliye Russish Shvaine/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-Shvaine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC33C2322810DBB900526F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-ShvaineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zliye Russish Shvaine.app/Zliye Russish Shvaine";
+			};
+			name = Debug;
+		};
+		AC33C2332810DBB900526F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-ShvaineTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zliye Russish Shvaine.app/Zliye Russish Shvaine";
+			};
+			name = Release;
+		};
+		AC33C2352810DBB900526F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-ShvaineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zliye Russish Shvaine";
+			};
+			name = Debug;
+		};
+		AC33C2362810DBB900526F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Rasha.Zliye-Russish-ShvaineUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zliye Russish Shvaine";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC33C1FF2810DBB700526F30 /* Build configuration list for PBXProject "Zliye Russish Shvaine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC33C22C2810DBB900526F30 /* Debug */,
+				AC33C22D2810DBB900526F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC33C22E2810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish Shvaine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC33C22F2810DBB900526F30 /* Debug */,
+				AC33C2302810DBB900526F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC33C2312810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish ShvaineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC33C2322810DBB900526F30 /* Debug */,
+				AC33C2332810DBB900526F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC33C2342810DBB900526F30 /* Build configuration list for PBXNativeTarget "Zliye Russish ShvaineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC33C2352810DBB900526F30 /* Debug */,
+				AC33C2362810DBB900526F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC33C2372810FB2700526F30 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC33C2382810FB2700526F30 /* Model.xcdatamodel */,
+			);
+			currentVersion = AC33C2382810FB2700526F30 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC33C1FC2810DBB700526F30 /* Project object */;
+}
